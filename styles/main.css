@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EEF4ED;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.navbar {
+    border: solid; 
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    background-color: #EEF4ED;
+    padding: 1em;
+}
+
+.nav-toggle {
+  background: none;
+  display: none;
+}
+
+.nav-item {
+    border: solid;
+    box-sizing: border-box;
+    margin-right: 1em;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.nav-item a:link {
+    color: #0B2545;
+    text-decoration: none;
+}
+
+.nav-item a:visited {
+    color: #0B2545;
+}
+
+.nav-item a:hover {
+    color: #134074;
+}
+
+h4 {
+    display: none;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 1em;
+    border: solid;
+}
+
+main {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    border: solid;
+     border-radius: 3%; 
+    background-color: rgba(0, 0, 0, .3);
+    padding: .4em;
+    color: #0B2545;
+}
+
+
+footer {
+    background-color: #EEF4ED;
+    border: black solid;
+    box-sizing: border-box;
+    bottom: 0;
+    margin-top: 1em;
+    position: absolute;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.navitemfoot {
+    font-size: 1.5em;
+    color: #0B2545;
+}
+
+.fa-instagram:hover {
+    color: #e4405f;
+}
+
+.fa-snapchat-square:hover {
+    color: #fffb00;
+}
+
+.fa-playstation:hover {
+    color: #003791;
+}
+
+@media (max-width: 500px) {
+
+  .nav-toggle, h4 {
+    display: inline;
+  }      
+  
+  .navbar {
+    display: none;
+  }
+  
+  .responsive {
+    display: block;
+  }
+  
+  
+}
+
